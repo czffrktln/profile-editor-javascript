@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Profile editor</title>
+
+		<link rel="stylesheet" href="public/style.css" />
+		
+		<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Sans+Pro&display=swap" rel="stylesheet"/>
+	</head>
+	<body>
+		<div id="root">
+			<form id="profileEditor">
+				<label for="firstName">First name:</label>
+				<input type="text" id="firstName" name="firstName"><br><br>
+				<label for="surname">Surname:</label>
+				<input type="text" id="surname" name="surname"><br><br>
+				<p>Address</p><br>
+				<label for="zipCode">Zip:</label>
+				<input type="text" id="zipCode" name="zipCode"><br><br>
+				<label for="country">Country:</label>
+				<input type="text" id="country" name="country"><br><br>
+				<label for="city">City:</label>
+				<input type="text" id="city" name="city"><br><br>
+				<label for="street">Street:</label>
+				<input type="text" id="street" name="street"><br><br>
+				<label for="houseNumber">House number:</label>
+				<input type="text" id="houseNumber" name="houseNumber"><br><br>
+				<label for="introduction">Introduction:</label>
+				<input type="text" id="introduction" name="introduction"><br><br>
+				<label for="picture">Profile Image:</label>
+				<input type="file" id="picture" name="picture"><br><br>
+			</form>
+			<button id="saveBtn">SAVE</button>
+		</div>
+		<script src="public/script.js"></script>
+	</body>
+</html>
